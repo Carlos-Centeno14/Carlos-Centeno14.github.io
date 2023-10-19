@@ -1,0 +1,50 @@
+/* styles.css */
+
+.simple-linear {
+  background: linear-gradient(#CE584A, #f28377);
+}
+
+* {
+  font-family: "Bahnschrift", sans-serif;
+}
+
+.navbar * {
+  color: white;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F8D4CE;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-align:left;
+  font-size: 2em;
+  z-index: 1;
+  
+}
