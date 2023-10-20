@@ -46,5 +46,34 @@
   text-align:left;
   font-size: 2em;
   z-index: 1;
-  
+}
+.FaresaltadoTit {
+  color: #CE584A;
+}
+.FaresaltadoTxt
+{
+  color: #f28377;
+}
+.custom-btn-color {
+  border-color: #CE584A;
+  color: #CE584A;
+}
+.custom-btn-color:hover {
+  background-color: #CE584A;
+  color: #ffffff; /* Cambia el color del texto en hover si es necesario */
+}
+footer
+{
+    background: #CE584A;
+    min-height: 70px;
+}
+footer p 
+{
+    color: white;
+}
+section, footer {
+  width: 100%;
+}
+section img {
+  width: 100%;
 }
