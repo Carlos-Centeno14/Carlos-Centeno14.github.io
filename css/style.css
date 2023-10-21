@@ -77,3 +77,31 @@ section, footer {
 section img {
   width: 100%;
 }
+.carousel-inner
+{
+    max-height: 60rem;
+}
+.slmuebles
+{
+  background: #f3b1aa;
+}
+.tarjeta-color
+{
+  background: #fda89e;
+}
+.tarjeta-color2
+{
+  background: #fea096;
+}
+.tarjeta-wh
+{
+  background:white;
+}
+.tarjeta-font
+{
+  color: #af3123;
+}
+.tarjeta-fontwh
+{
+  color: white;
+}
