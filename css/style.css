@@ -105,3 +105,10 @@ section img {
 {
   color: white;
 }
+
+
+
+.img-content {
+  display: block;
+  padding: 1rem 0;
+}
